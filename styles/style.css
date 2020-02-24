@@ -1,0 +1,30 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+
+
+.searchbar{
+    margin-top:25px;
+   margin-left:360px;
+   width:100%;
+}
+.bar{
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  display: flex; 
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.bar:hover{
+    -webkit-box-shadow: 3px 6px 7px -3px #ccc;
+}
